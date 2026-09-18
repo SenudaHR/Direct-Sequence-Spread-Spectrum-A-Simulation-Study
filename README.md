@@ -107,19 +107,6 @@ correlator to reject delayed replicas and foreign codes alike.
 - **Validation.** Every simulated curve is checked against a closed-form bound or a
   known limiting case wherever one exists.
 
----
-
-## Getting Started
-
-```bash
-git clone <repository-url>
-cd <repository-name>
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-jupyter lab
-```
-
-Then open `notebooks/01_spreading_basics.ipynb` and work through in order.
 
 **Dependencies:** `numpy`, `scipy`, `matplotlib`, `jupyterlab`
 
@@ -142,8 +129,3 @@ Then open `notebooks/01_spreading_basics.ipynb` and work through in order.
 3. A. J. Viterbi, *CDMA: Principles of Spread Spectrum Communication*, Addison-Wesley.
 4. S. W. Golomb, *Shift Register Sequences*, Aegean Park Press.
 
----
-
-## License
-
-MIT
